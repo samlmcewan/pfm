@@ -1,5 +1,10 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    
+    .hero .hero-svg {
+        left: -20vw;
+    }
+    .hero {
+        height: 50vh;
+    }
 }

@@ -61,5 +61,17 @@
     color: var(--orange);
 }
 
+.hero .hero-svg {
+    left: -5vw;
+    bottom: -10vw;
+    width: 25rem;
+}
+.hero {
+    height: 50vh;
+}
+.hero h1 {
+
+}
+
 }
         

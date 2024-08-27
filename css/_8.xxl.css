@@ -1,0 +1,15 @@
+/* Extra large devices (large monitors, 1600px and up) */
+
+@media only screen and (min-width: 1600px) {
+    .hero .hero-svg {
+        left: -5vw;
+        bottom: -8vw;
+        width: 29rem;
+    }
+    .hero {
+        height: 30vh;
+    }
+    .hero h1 {
+
+    }
+}

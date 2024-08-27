@@ -32,6 +32,34 @@
 }
 #main-nav .nav-item.dropdown ul li a:hover {
     color: var(--orange);
+    background-color: transparent!important;
 }
+#main-nav .dropdown.active {
+    color: var(--orange);
+}
+#main-nav .dropdown.active ul li a:hover {
+    color: var(--orange)!important;
+    background-color: transparent!important;
+}
+#main-nav .dropdown ul {
+    background-color: transparent!important;
+}
+#main-nav .dropdown-item {
+    padding: .2rem!important;
+}
+#main-nav .dropdown-toggle::after {
+    vertical-align: 0;
+}
+#main-nav .dropdown:hover .dropdown-toggle::after {
+    transform: rotate(-180deg);
+     transform-origin: 50% 50%;
+    /* vertical-align: -0.1em;
+    margin-top: .1em;  */
+
+}
+#main-nav .active a {
+    color: var(--orange);
+}
+
 }
         

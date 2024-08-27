@@ -62,15 +62,15 @@
 }
 
 .hero .hero-svg {
-    left: -5vw;
-    bottom: -10vw;
+    left: -5px;
+    bottom: -3rem;
     width: 25rem;
 }
 .hero {
-    height: 50vh;
+    height: 35rem;
 }
 .hero h1 {
-
+font-size: 4rem;
 }
 
 }

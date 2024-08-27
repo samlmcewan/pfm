@@ -259,7 +259,7 @@
 --------------------------------------------------------------*/
 
 .hero {
-    height: 70vh;
+    height: 40rem;
     position: relative;
 }
 .hero .hero-img {
@@ -283,6 +283,7 @@
 .hero h1 {
     color: var(--orange);
     font-size: 4rem;
+    font-weight: 600;
 }
 .hero h1 span {
     color: var(--white);

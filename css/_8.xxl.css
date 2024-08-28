@@ -15,5 +15,8 @@
     .title-container {
         padding: 3rem 5rem 3rem 31%;
     }
+    .testimonials .title-container {
+        padding: 2.5rem 4rem 2.5rem 26%;
+    }
 
 }

@@ -102,5 +102,14 @@ font-size: 4rem;
     padding: 3rem 5rem 2rem 5rem;
 }
 
+.testimonials .text-col {
+    padding-right: 5rem;
+    font-size: 1.5rem;
+}
+.testimonials .title-container {
+    padding: 2.5rem 4rem 2.5rem 18%;
+    top: 6rem;
+}
+
 }
         

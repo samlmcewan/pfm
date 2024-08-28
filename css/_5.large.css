@@ -24,4 +24,21 @@
         padding: 3rem 5rem 2rem 5rem;
         margin-top: 7rem;
     }
+
+    .testimonials .img-col {
+        position: relative;
+    }
+    .testimonials .text-col {
+        padding-right: 3rem;
+        
+    }
+    .testimonials img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 105%;
+    }
+    .testimonials .title-container {
+        padding: 2.5rem 4rem 2.5rem 9%;
+    }
 }

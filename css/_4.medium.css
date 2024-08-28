@@ -8,5 +8,13 @@
         height: 30rem;
     }
 
+    .section-title h2 {
+        font-size: 3rem;
+    }
+
+    .testimonials img {
+       margin-bottom: 0;
+    }
+
 
 }

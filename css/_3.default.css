@@ -593,6 +593,33 @@ section {
     background-color: var(--black);
 }
 
+/*--------------------------------------------------------------
+# Hero Inner
+--------------------------------------------------------------*/
+.hero-inner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-inner img {
+    object-position: 70%;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumb .breadcrumb-item a {
+    color: var(--black);
+    text-decoration: none;
+}
+.breadcrumb .breadcrumb-item.active {
+    color: var(--orange);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
 footer {
     background-color: var(--black);
     color: var(--white);

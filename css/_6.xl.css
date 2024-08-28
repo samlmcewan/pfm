@@ -140,6 +140,11 @@ font-size: 4rem;
     justify-content: center;
 }
 
+.hero-inner .title-container {
+    padding: 3rem 5rem 3rem 15%;
+    margin-top: 4rem;
+}
+
 /* Footer - XLarge Devices */
 footer, footer a {
     /* font-size: 1.125rem; */

@@ -34,6 +34,12 @@
     }
     
 
+     /* Footer - Medium devices */
+    
+  .shfooter .collapse {
+    display: none;
+}
+
     
 
 

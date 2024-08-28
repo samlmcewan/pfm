@@ -69,6 +69,22 @@ h1, h2,h3, h4,h5,h6 {
 section {
     overflow: hidden;
 }
+.btn-primary {
+    border: 3px solid var(--orange);
+    border-radius: 0;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    width: fit-content;
+}
+.btn-primary:hover {
+    color: var(--orange);
+    border: 3px solid var(--orange);
+    background-color: var(--gray);
+}
+.btn-primary:active {
+        border: 3px solid var(--red)!important;
+        background-color: var(--red)!important;
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
@@ -390,7 +406,7 @@ section {
     transition: all .6s ease;
 }
 
-.landing-cards .card-img-container {
+.card-img-container {
     background-color: var(--black);
     border: 5px solid var(--orange);
     border-radius: 50%;
@@ -402,7 +418,7 @@ section {
     position: relative;
 
 }
-.landing-cards .card-img-container img {
+ .card-img-container img {
     max-width: 75%;
     
     height: 55%;
@@ -616,6 +632,52 @@ section {
     color: var(--orange);
 }
 
+/*--------------------------------------------------------------
+# Inner About
+--------------------------------------------------------------*/
+.inner-about .card-img-container {
+    margin: 0;
+   padding: 3rem;
+}
+.inner-about .inner-title {
+    position: relative;
+}
+.inner-about .inner-title h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    letter-spacing: .365rem;
+    text-align: end;
+}
+
+/* Contact form  */
+.contact-form {
+    background-color: var(--gray);
+}
+.contact-form h3 {
+    color: var(--orange);
+    text-transform: uppercase;
+}
+.contact-form input {
+    background-color: var(--grayDark);
+    border-radius: 0;
+}
+.contact-form input:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 0 .25rem rgba(240, 104, 39, .25);
+}
+.contact-form input[placeholder] {
+    text-transform: uppercase;
+    color: var(--black);
+}
+.form-control {
+   border: 1px solid var(--gray);
+}
+
+.inner-image img {
+    object-fit: cover;
+    width: 100%;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

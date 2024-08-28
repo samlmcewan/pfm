@@ -3,6 +3,14 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+body {
+    font-family: "Barlow", sans-serif;
+}
+h1, h2,h3, h4,h5,h6 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    letter-spacing: .365rem;
+}
 .section-title h2 {
     text-transform: uppercase;
     font-size: 3rem;
@@ -29,6 +37,13 @@
 .btn-gray:hover {
     background-color: var(--orange);
     color: var(--white);
+}
+.btn-gray span {
+    transition: transform .5s ease;
+}
+.btn-gray:hover span {
+    transform: translateX(3px);
+    display: inline-block;
 }
 
 .title-container {
@@ -365,7 +380,7 @@
 }
 
 .landing-cards .card > *{
-    transition: all .3s ease;
+    transition: all .6s ease;
 }
 
 .landing-cards .card-img-container {
@@ -447,4 +462,13 @@
     margin-top: 6rem;
     padding: 3rem 1.5rem 1.5rem 3rem;
     z-index: 0;
+}
+
+/*--------------------------------------------------------------
+# Accreditations
+--------------------------------------------------------------*/
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

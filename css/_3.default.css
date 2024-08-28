@@ -3,7 +3,50 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.bg-gray {
+    background-color: var(--gray);
+}
+.orange-divider {
+    width: 100%;
+    height: 1.5rem;
+    background-color: var(--orange);
+}
+.btn-gray {
+    background-color: var(--grayDark);
+    padding: .9rem 1.35rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: .875rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--black);
+    transition: all .3s ease;
+}
+.btn-gray:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
 
+.title-container {
+    background-color: var(--black);
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    padding: 2rem 3rem;
+}
+.title-container h2 {
+    color: var(--white);
+    font-size: 2rem;
+    text-transform: uppercase;
+    z-index: 9!important;
+}
+.section {
+    overflow: hidden;
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
@@ -298,4 +341,110 @@
 }
 .hero a:hover {
     cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Landing-cards
+--------------------------------------------------------------*/
+.landing-cards a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.landing-cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    border-radius: 0;
+    height: 100%!important;
+    max-height: 100%;
+    background-color: transparent;
+}
+
+.landing-cards .card > *{
+    transition: all .3s ease;
+}
+
+.landing-cards .card-img-container {
+    background-color: var(--black);
+    border: 5px solid var(--orange);
+    border-radius: 50%;
+    padding: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: -4rem;
+    z-index: 1;
+    position: relative;
+
+}
+.landing-cards .card-img-container img {
+    max-width: 75%;
+    
+    height: 55%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.landing-cards .card .card-body {
+    border: 3px solid var(--grayDark);
+    width: 100%;
+    padding-top: 5.5rem;
+    padding-bottom: 0;
+    background-color: var(--white);
+}
+.landing-cards .card .card-body h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+.landing-cards .card .card-body .card-btn {
+    background-color: var(--grayDark);
+    padding: .9rem 1.35rem;
+}
+.landing-cards .card .card-body .card-btn p {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: .875rem;
+    font-weight: 600;
+}
+
+.landing-cards .card:hover .card-body, .landing-cards .card.active .card-body{
+    background-color: var(--red);
+}
+
+.landing-cards .card:hover h3, .landing-cards .card.active h3{
+    color: var(--white);
+}
+
+.landing-cards .card:hover .card-btn, .landing-cards .card.active .card-btn {
+    background-color: var(--red);
+}
+.landing-cards .card:hover .card-btn p, .landing-cards .card.active .card-btn p {
+    color: var(--red);
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about-us .container-fluid {
+    position: relative;
+}
+.about-us img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.about-us .text-col {
+    background-color: var(--white);
+    font-size: 1.125rem;
+    margin-top: 6rem;
+    padding: 3rem 1.5rem 1.5rem 3rem;
+    z-index: 0;
 }

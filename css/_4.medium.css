@@ -16,5 +16,25 @@
        margin-bottom: 0;
     }
 
+    .why-choose-us .text-col {
+        padding: 2rem 3rem;
+        margin-top: 3rem;
+    }
+
+    .why-choose-us .text-col ul svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .why-choose-us .text-col ul li {
+        margin: 2rem 0;
+    }
+    .why-choose-us .cta img {
+        width: 25%;
+    }
+    
+
+    
+
 
 }

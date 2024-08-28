@@ -110,6 +110,36 @@ font-size: 4rem;
     padding: 2.5rem 4rem 2.5rem 18%;
     top: 6rem;
 }
+.why-choose-us .text-col {
+    padding: 3rem 5rem 2rem 5rem;
+    margin-top: 2rem;
+}
+
+.why-choose-us .title-container {
+    padding: 2.5rem 4rem 2.5rem 18%;
+}
+.why-choose-us .text-col ul svg {
+    width: 4rem;
+    height: 4rem;
+}
+
+.why-choose-us .cta img {
+    width: 15%;
+}
+.why-choose-us .cta .cta-btn p{
+    text-align: left;
+    font-size: 1.9rem;
+}
+
+.why-choose-us .cta .cta-btn .go {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 }
         

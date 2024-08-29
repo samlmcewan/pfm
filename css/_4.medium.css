@@ -1,6 +1,10 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    .hero h1 {
+        color: var(--orange);
+        font-size: 4rem;
+    }
     .hero .hero-svg {
         left: -20vw;
     }

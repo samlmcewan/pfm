@@ -88,6 +88,14 @@ section {
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
+#main-nav .dropdown-toggle:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(255, 102, 0, 0);
+}
+
 .logo-mobile {
     padding-left: calc(var(--bs-gutter-x)* .5);
 }
@@ -363,7 +371,7 @@ section {
 }
 .hero h1 {
     color: var(--orange);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
 }
 .hero h1 span {
@@ -468,6 +476,9 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about-us {
+    margin-top: -1px;
+}
 .about-us .container-fluid {
     position: relative;
 }
